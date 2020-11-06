@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>井字棋</title>
+    <link rel="stylesheet" type="text/css" href="./public/style.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./public/main.js"></script>
+</head>
+<body style="background-color: #EFEFEF; text-align: center;">
+    <h1>井字棋 - 人机对战</h1>
+    <button style="width: 10%; height: 30px;" onclick="start()">开始</button>
+    <div id="message" style="margin-top: 10px; font-size: 20px;"></div>
+    <div id="container">
+        <table id="map">
+            <tr>
+                <td id="1_1" onclick="show(this)"></td>
+                <td id="1_2" onclick="show(this)"></td>
+                <td id="1_3" onclick="show(this)"></td>
+            </tr>
+            <tr>
+                <td id="2_1" onclick="show(this)"></td>
+                <td id="2_2" onclick="show(this)"></td>
+                <td id="2_3" onclick="show(this)"></td>
+            </tr>
+            <tr>
+                <td id="3_1" onclick="show(this)"></td>
+                <td id="3_2" onclick="show(this)"></td>
+                <td id="3_3" onclick="show(this)"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="copyright" style="margin-top: 10px;">
+        <span>版权所有©&nbsp;Copyright&nbsp;2020&nbsp;CUG_YZL&emsp;</span>
+        <span>中国地质大学（武汉）&emsp;</span>
+        <span>email：2395680659@qq.com</span>
+        <div><span class="u">翻过这座山，就会有人听到你的故事</span></div>
+    </div>
+</body>
+</html>
