@@ -103,7 +103,6 @@ function alpha_beta(Map, now, next, alpha, beta) {
 
 function move() {
     var Map = get_map();
-    console.log(Map);
     var best = -2;
     var moves = [];
     for(var i = 1; i <= 3; ++i) {
